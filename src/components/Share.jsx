@@ -8,11 +8,11 @@ import { Box } from '@mui/material';
 function SearchBox() {
     const [selectedOptions, setSelectedOptions] = useState([]);
     const [options, setOptions] = useState([
-        'Option 1',
-        'Option 2',
-        'Option 3',
-        'Option 4',
-        'Option 5',
+        'Atharva Khule',
+        'Jiju Thomas',
+        'Intiant',
+        'ReactJs',
+        'Frontend',
     ]);
 
     const handleOptionSelected = (event, value) => {

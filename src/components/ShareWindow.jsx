@@ -5,6 +5,7 @@ import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Share from './Share'
+import Publish from './Publish';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -58,7 +59,7 @@ export default function BasicTabs() {
         <Share/>
       </TabPanel>
       <TabPanel value={value} index={1}>
-        Publish
+        <Publish/>
       </TabPanel>
 	  <Box sx={{ borderTop: 1, borderColor: 'divider' }}></Box>
     </Box>
