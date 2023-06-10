@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.MuiButton-outlinedPrimary{
+  color: black !important;
+  border: 1px solid black !important;
+}
