@@ -1,58 +1,69 @@
 .root {
-    max-width: 600px;
-    margin: 0 auto;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .root {
+    max-width: 400px;
   }
-  
-  @media (max-width: 768px) {
-    .root {
-      max-width: 400px;
-    }
+}
+
+@media (max-width: 480px) {
+  .root {
+    max-width: 300px;
   }
-  
-  @media (max-width: 480px) {
-    .root {
-      max-width: 300px;
-    }
-  }
-  
-  #link-id {
-    padding: 0.5rem;
-  }
-  
-  #link-button {
-    padding: 0.5rem;
-    border-radius: 5px;
-  }
-  
-  .option {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0.3rem;
-  }
-  
-  .publish-buttons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  #view {
-    width: 50%;
-    margin: 0.5rem;
-    padding: 0.5rem;
-    background-color: rgb(26, 81, 133);
-    color: white;
-    border: none;
-    border-radius: 5px;
-  }
-  
-  #unpublish {
-    margin: 0.5rem;
-    padding: 0.5rem;
-    width: 50%;
-    background-color: white;
-    border: 1px solid gray;
-    border-radius: 5px;
-  }
-  
+}
+
+#link-id {
+  padding: 0.5rem;
+}
+
+#link-button {
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.3rem;
+}
+
+.publish-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#view {
+  width: 50%;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  background-color: rgb(35, 109, 179);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#unpublish:hover {
+  background-color: rgb(169, 162, 162);
+  transition: 0.4s;
+}
+
+#unpublish {
+  cursor: pointer;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: 50%;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+#view:hover {
+  background-color: rgb(26, 81, 133);
+  transition: 0.4s;
+}
